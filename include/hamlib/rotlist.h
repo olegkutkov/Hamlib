@@ -458,7 +458,7 @@
  *  \def ROT_MODEL_SAR
  *  \brief A macro that returns the model number of the SAR backend.
  *
- *  The IOPTRON backen can be used with SAR telescope mounts
+ *  The SAR backen can be used with Dynamixel-based small antenna rotator
  */
 //! @cond Doxygen_Suppress
 #define ROT_SAR 20
