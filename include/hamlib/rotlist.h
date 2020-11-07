@@ -454,7 +454,17 @@
 //! @endcond
 #define ROT_MODEL_IOPTRON ROT_MAKE_MODEL(ROT_IOPTRON, 1)
 
-
+/**
+ *  \def ROT_MODEL_SAR
+ *  \brief A macro that returns the model number of the SAR backend.
+ *
+ *  The IOPTRON backen can be used with SAR telescope mounts
+ */
+//! @cond Doxygen_Suppress
+#define ROT_SAR 20
+#define ROT_BACKEND_SAR "sar"
+//! @endcond
+#define ROT_MODEL_SAR ROT_MAKE_MODEL(ROT_SAR, 1)
 
 
 /**
